@@ -42,11 +42,16 @@ header .my-photos img{
     margin-left: 30px;
 }
 
+/* =========== MAIN CONTENT ========== */
 main .main-container{
     margin-top: 40px;
-    padding: 20px;
+    padding: 60px 20px;
     margin: 0 auto;
     text-align: center;
+}
+
+main .container{
+    border-bottom: 2px solid #bab8b8;
 }
 
 .main-container .card{
@@ -58,5 +63,6 @@ main .main-container{
     margin: 0 30px;
     border-radius: 12px;
     box-shadow: 1px 1px 8px 0 rgba(0 0 0 / 0.2);
+    margin-bottom: 40px;
     
 }
