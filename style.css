@@ -10,31 +10,43 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* ========== HEADER ========== */
 .wrapper-header{
     width: 100%;
     padding: 30px 20px;
-    background-color: rgb(0, 145, 255);;
-    text-align: center;
+    background-color: rgb(0, 145, 255);
 }
 
-
+h1{
+    font-size: 2.8em;
+}
 
 header .my-photos img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-header .head-container figure{
+header .head-container figure, .name-box{
+    vertical-align: middle;
     display: inline-block;
 }
+
+.head-container{
+    margin-left: 80px;
+
+}
 .name-box{
-    display: inline-block;
     background-color: #f5f5f5;
     border-radius: 12px;
     box-shadow: 1px 1px 8px 0 rgba(0 0 0 / 0.2);
     width: 700px;
     padding: 30px;
-    margin-left: 30px;
+    margin-left: 50px;
+}
+
+.name-box h1,p{
+    text-align: center;
 }
 
 /* =========== MAIN CONTENT ========== */
