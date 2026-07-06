@@ -161,14 +161,17 @@ main .portofolio .item-card ul{
 /* Open Button */
 main .portofolio .item-card a{
     text-decoration: none;
-    background-color: rgb(0, 145, 255);
+    background-color: rgb(78, 173, 236);
     color: white;
     border-radius: 25px;
     padding: 10px 20px;
     font-weight: bold;
+    
+}
+main .portofolio .item-card a:hover{
+    background-color: rgb(0, 145, 255);
 
 }
-
 /* ========= MY CONTACT =========== */
 
 main .contact{
