@@ -77,8 +77,14 @@ main .about-skill-container .about-card, .skill-card{
     
 }
 
+/* Content */
 main .main-container .about-skill-container h2{
     font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+main .main-container .about-skill-container p{
+    text-align: left;
     margin-bottom: 20px;
 }
 
