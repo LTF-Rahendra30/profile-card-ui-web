@@ -88,6 +88,15 @@ main .main-container .about-skill-container p{
     margin-bottom: 20px;
 }
 
+main .main-container .about-skill-container .skill-card ol,ul{
+    text-align: left;
+}
+
+ol ul, ul ul{
+    padding-left: 20px;
+    list-style-type: "🔹";
+}
+
 /* -------- PORTOFOLIO BOX ------- */
 
 main .portofolio{
