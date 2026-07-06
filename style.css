@@ -94,18 +94,32 @@ main .main-container .about-skill-container .skill-card ol,ul{
 }
 
 ol ul, ul ul{
-    padding-left: 20px;
+    padding-left: 40px;
     list-style-type: "🔹";
 }
 main .main-container .about-skill-container .skill-card article ol {
     padding: 0 20px;
+    list-style-type: none;
 }
 
 main .main-container .about-skill-container .skill-card .list-head{
     font-weight: bold;
+    margin-bottom: 20px;
 }
 main .main-container .about-skill-container .skill-card .list-head ul li{
     font-weight: normal;
+}
+
+/* List capsule */
+main .main-container .about-skill-container .skill-card ol li > span{
+    background-color: rgb(123, 177, 253);
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+main .main-container .about-skill-container .skill-card ol>li>ul{
+    margin-top: 10px;
 }
 /* -------- PORTOFOLIO BOX ------- */
 
