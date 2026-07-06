@@ -77,6 +77,13 @@ main .about-skill-container .about-card, .skill-card{
     
 }
 
+.main-container .card:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 4px 0 rgb(78, 173, 236);
+    cursor: pointer;
+}
+
 /* Content */
 main .main-container .about-skill-container h2{
     font-size: 1.8em;
