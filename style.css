@@ -188,6 +188,11 @@ main .contact .contact-link .contact-btn{
     min-width: 70px;
 }
 
+main .contact .contact-link .contact-btn:hover{
+    transform: translateY(-2px);
+    scale: calc(1.03);
+    transition: all 0.2s ease-in-out;
+}
 /* ====== FOOTER ======= */
 footer{
     text-align: center;
