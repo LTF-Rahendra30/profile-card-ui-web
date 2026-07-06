@@ -135,14 +135,21 @@ main .portofolio{
     margin-bottom: 60px;
     text-align: center;
 }
+main .portofolio .portofolio-container, .item-card{
+    
+    display: inline-block;
+    vertical-align: top;
 
+
+}
 main .portofolio h2{
+    text-align: center;
     margin-bottom: 30px;
     font-size: 1.8em;
 }
 main .portofolio .item-card{
-    display: inline-block;
     width: 300px;
+    min-height: 650px;
     border-radius: 12px;
     box-shadow: 1px 1px 8px 0 rgba(0 0 0 / 0.2);
     background-color: #f5f5f5;
