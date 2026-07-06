@@ -157,6 +157,13 @@ main .portofolio .item-card{
     margin: 0 30px;
     
 }
+
+main .portofolio .item-card:hover{
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 1px 1px 4px 0 rgb(78, 173, 236);
+    cursor: pointer;
+}
 main .portofolio .item-card p{
     margin: 30px 0;
 }
