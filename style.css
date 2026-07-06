@@ -77,6 +77,11 @@ main .about-skill-container .about-card, .skill-card{
     
 }
 
+main .main-container .about-skill-container h2{
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
 /* -------- PORTOFOLIO BOX ------- */
 
 main .portofolio{
